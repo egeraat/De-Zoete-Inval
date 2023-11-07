@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #34322e;
+        text-align: center;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 36px;
+        color: #fff;
+    }
+
+    section {
+        background-color: #fff;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    section h2 {
+        font-size: 24px;
+        color: #333;
+        
+    }
+
+    section h3 {
+        font-size: 20px;
+        color: #555;
+    }
+
+    section p {
+        font-size: 16px;
+        color: #000000;
+    }
+
+
+#hreflijst {
+    background-color: #34322e;
+    padding: 30x;
+    display: flex;
+    justify-content: space-between; /* To space the items evenly */
+
+}
+
+.hover-link {
+    text-decoration: none; /* Remove the default underline style of links */
+    color: #000; /* Set the default text color */
+    transition: color 0.3s; /* Add a smooth color transition */
+  
+    /* Additional styles for the link */
+    padding: 5px 10px;
+    border: 1px solid #000;
+    background-color: #fff;
+  }
+  
+  .hover-link:hover {
+    color: rgb(255, 255, 255); /* Change the text color when hovered */
+    background-color: #000000; /* Change the background color when hovered */
+  }
+
+  footer {
+    background-color: #e99c02; /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Add some padding for spacing */
+    text-align: center; /* Center-align the content */
+  }
+  
+  .footer-content {
+    max-width: 600px; /* Limit the content width */
+    margin: 0 auto; /* Center-align the content within the footer */
+  }
+  
+  .footer-content p {
+    margin: 5px 0; /* Add spacing between paragraphs */
+  }
+  
+  .footer-content a {
+    color: #fff; /* Style links within the footer */
+    text-decoration: none;
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline; /* Add an underline on link hover */
+  }
+
+/* Style voor de gehele hoofdcontainer */
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Stijl voor de kop */
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Stijl voor paragrafen */
+p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Stijl voor formuliervelden */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 150px;
+}
+
+/* Stijl voor verzendknop */
+input[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Stijl voor verzendknop bij hover (wanneer de muis erover beweegt) */
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.kleiner {
+  width: 200px;
+  height: auto;
+}
+
+/* ########################################################################################################################### */
+
+
+/* Style the section */
+.hover-section1 {
+  background-color: #ffffff;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative; /* Needed for positioning the list */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+/* Style the section on hover */
+.hover-section1:hover {
+  background-color: #e0e0e0;
+}
+
+/* Style the hidden list when it's hidden */
+.hidden-list1 {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style list items */
+.hidden-list1 li {
+  padding: 10px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+/* Style list items on hover */
+.hidden-list1 li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Show the list when the section is hovered */
+.hover-section1:hover .hidden-list1 {
+  display: block;
+}
+
+#sparen {
+  background-color:#ffd2d1
+}
+
+#brood li a {
+    color: #333;
+    text-decoration: none;
+
+}
+
+/* Add hover effect to list items inside the "brood" section */
+#brood li a:hover {
+    color: #555;
+
+
+}
+
