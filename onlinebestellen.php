@@ -11,7 +11,7 @@
 <body>
 
     <header>
-        <h1>De Zoete Inval</h1>
+    <img src="img/logo.png" alt="logo">
     </header>
 
     <section id="hreflijst">
